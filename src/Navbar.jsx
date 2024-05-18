@@ -1,5 +1,7 @@
 import "react";
 import "./Navbar.css"
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 
 export default function Navbar(){
     return(
@@ -8,7 +10,7 @@ export default function Navbar(){
       <div className="navbar-left">
         <div className="dropdown">
           <button className="dropbtn">
-            <img src="" alt="Menú"/>
+          
           </button>
           <div className="dropdown-content">
             <a href="#">Home</a>
