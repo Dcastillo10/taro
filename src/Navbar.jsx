@@ -10,7 +10,7 @@ export default function Navbar(){
       <div className="navbar-left">
         <div className="dropdown">
           <button className="dropbtn">
-          
+          <img src="/src/assets/bars-solid.svg"/>
           </button>
           <div className="dropdown-content">
             <a href="#">Home</a>

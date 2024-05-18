@@ -14,7 +14,7 @@ function App() {
       <section className="hero">
           <div className="hero-content">
             <div>
-              <h1 className='hero-h1'>Explore, Share and Enjoy</h1>
+              <h1 className='hero-h'>Explore, Share and Enjoy</h1>
               <p className="hero-p">
                 Taro´s is an elegant culinary platform that combines a passion for
                 food with creativity in the kitchen. Discover new delights, share
@@ -30,7 +30,9 @@ function App() {
           </div>
         </section>
         <section className="top-recipes">
-          <h2>Top 10 highest-rated recipes</h2>
+          <div className="title-container">
+            <h2 className='hero-h'>Top 10 </h2> <h2> highest-rated recipes</h2>
+          </div>
           <div className="recipe-cards">
           <Carousel 
             showThumbs={false} 
@@ -48,22 +50,26 @@ function App() {
               description="Creamy, rich cheesecake crowned with blueberry"
               rating="4.8" />
             <RecipeCard
+              img="/src/assets/recipe2.jpg"
               title="Chocolate muffins"
               description="Loaded with chocolate chips in every single bite"
               rating="4.9" />
             <RecipeCard
+              img="/src/assets/recipe8.jpg"
               title="Spaghetti bolognese"
               description="A true Italian classic with a meaty, rich sauce"
               rating="4.8" />
             <RecipeCard
+              img="/src/assets/recipe6.jpg"
               title="Grilled steak"
               description="Juicy steak with a nice crust that is easy to cook"
               rating="4.7" />
             <RecipeCard
+              img="/src/assets/recipe7.jpg"
               title="Chicken breast"
-              description="Juicy, tender chicken breast in a delicious marinade"
+              description="Tender chicken breast in a delicious marinade"
               rating="4.6" />
-              </Carousel>
+            </Carousel>
           </div>
         </section>
       </main>
