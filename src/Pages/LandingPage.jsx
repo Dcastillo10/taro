@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-const Categories = () => {
+const LandingPage = () => {
   return (
     <>
-      <h1>Hcccme</h1>
+      <h1>Home</h1>
     </>
   );
 };
 
-export default Categories;
+export default LandingPage;

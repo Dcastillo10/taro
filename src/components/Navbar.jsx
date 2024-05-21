@@ -1,5 +1,6 @@
 import "react";
-import "./Navbar.css"
+import './Navbar.css';
+import { Link } from 'react-router-dom';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -13,11 +14,17 @@ export default function Navbar(){
           <img src="/src/assets/bars-solid.svg"/>
           </button>
           <div className="dropdown-content">
-            <a href="#">Home</a>
-            <a href="#">Categories</a>
-            <a href="#">Blog</a>
-            <a href="#">About Us</a>
-            <a href="#">Sign Off</a>
+          <Link to='/Home' >
+              Home
+          </Link>
+            
+            <Link to='/Categories' >
+              Categories
+            </Link>
+
+            <Link to='/About' >
+              About Us
+            </Link>
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-const Categories = () => {
+function Blog() {
   return (
     <>
-      <h1>Hcccme</h1>
+      <h1>Blog</h1>
     </>
   );
-};
+}
 
-export default Categories;
+export default Blog;
