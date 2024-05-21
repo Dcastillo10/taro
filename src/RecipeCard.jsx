@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 
 export default function RecipeCard({img,title, description, rating}) {
     return (
-      <div className="recipe-card">
+      <section className="recipes-section">
+        <div className="recipe-card">
         <div className="recipe-image">
           <img
             src={img}
@@ -19,6 +20,8 @@ export default function RecipeCard({img,title, description, rating}) {
           <button className="start-button">Start</button>
         </div>
       </div>
+      </section>
+      
     );
   }
 
