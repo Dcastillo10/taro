@@ -1,43 +1,43 @@
 .hero {
-    padding: 40px;
-    background-color: #000000;
-  }
+  width: 100vw;
+  background-color: #000000;
+}
 
-  .hero-h{
-    color: #F27D16;
-    margin-right: 10px;
-  }
+.hero-h {
+  color: #f27d16;
+  margin-right: 10px;
+}
 
-  .hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .hero-p {
-    margin-top: 20px;
-    margin-left: 30px;
-    width: 500px;
-    text-align: center;
-  }
-  
-  .hero-image img {
-    width: 350px;
-    height: auto;
-    margin-bottom: 230px;
-    margin-left: 100px;
-  }
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
 
-  /*texto de titulo de top 10*/
-  .title-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-  
-  .top-recipes {
-    padding: 20px;
-    background-color: #333;
-    justify-content: center;
-  }
+.hero-p {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 350px;
+  height: auto;
+  margin-bottom: 230px;
+  margin-left: 100px;
+}
+
+/*texto de titulo de top 10*/
+.title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.top-recipes {
+  padding: 20px;
+  background-color: #333;
+  justify-content: center;
+}
