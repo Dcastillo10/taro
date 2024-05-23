@@ -1,0 +1,58 @@
+.about-tittle {
+  color: #f27d16;
+  justify-content: center;
+  display: flex;
+}
+.about-hero {
+  width: 100vw;
+  height: auto;
+  background-color: #000000;
+}
+
+.about-hero-heading {
+  color: white;
+  margin-left: 200px;
+}
+
+.about-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #212121;
+}
+
+.about-hero-paragraph {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.about-hero-image img {
+  width: 646px;
+  height: auto;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+/*texto de titulo de top 10*/
+.about-title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-mision {
+  padding: 20px;
+  background-color: #000000;
+  justify-content: center;
+}
+
+.about-mision-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #000000;
+}

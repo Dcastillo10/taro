@@ -17,8 +17,6 @@ export default function Navbar() {
 
               <Link to="/Categories">Categories</Link>
 
-              <Link to="/Blog">Blog</Link>
-
               <Link to="/About">About Us</Link>
             </div>
           </div>
