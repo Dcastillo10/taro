@@ -1,0 +1,32 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: #191919;
+  padding: 1rem;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff;
+  font-size: xx-large;
+}
+
+.nav-item a {
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Usa el color del elemento padre (.nav-item) */
+}
+
+.nav-item-main-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f27d16;
+  font-size: xx-large;
+}
+
+.nav-item-main-upload a {
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Usa el color del elemento padre (.nav-item-main-upload) */
+}

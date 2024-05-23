@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import ProfileInfo from "../components/ProfileInfo";
-import ProfileMyRecipes from "../components/ProfileMyRecipes";
+import ProfileMyUpload from "../components/ProfileMyUpload";
 
-function Profile() {
+function ProfileUpload() {
   return (
     <>
       <ProfileInfo />
-      <ProfileMyRecipes />
+      <ProfileMyUpload />
     </>
   );
 }
 
-export default Profile;
+export default ProfileUpload;
