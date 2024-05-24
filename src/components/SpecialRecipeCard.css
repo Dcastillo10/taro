@@ -1,0 +1,21 @@
+.special-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button,
+.edit-button {
+  padding: 8px 16px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+}
+
+.edit-button {
+  background-color: rgb(226, 209, 23);
+}

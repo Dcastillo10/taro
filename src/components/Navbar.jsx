@@ -29,7 +29,11 @@ export default function Navbar() {
         </div>
         <div className="navbar-center">
           <h1>TARO´S</h1>
-          <input type="text" placeholder="Search for recipes" />
+          <input
+            className="input-search-bar"
+            type="text"
+            placeholder="Search for recipes"
+          />
         </div>
         <div className="navbar-right">
           <Link to="/ProfileRecipes">Perfil</Link>

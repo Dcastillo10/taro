@@ -2,7 +2,7 @@
 import React from "react";
 import "../components/ProfileMyRecipes.css";
 import { Link } from "react-router-dom";
-import RecipeCard from "../components/RecipeCard";
+import SpecialRecipeCard from "../components/SpecialRecipeCard";
 
 function ProfileMyRecipes() {
   return (
@@ -22,23 +22,23 @@ function ProfileMyRecipes() {
         </div>
       </nav>
       <div className="my-profile-recipes">
-        <RecipeCard
+        <SpecialRecipeCard
           img="/src/assets/recipe1.jpg"
           title="Cheesecake"
           description="Creamy, rich cheesecake crowned with blueberry"
           rating="4.8"
         />
-        <RecipeCard
+        <SpecialRecipeCard
           img="/src/assets/recipe2.jpg"
           title="Chocolate muffins"
           description="Loaded with chocolate chips in every single bite"
           rating="4.9"
         />
-        <RecipeCard
-          img="/src/assets/recipe8.jpg"
-          title="Spaghetti bolognese"
-          description="A true Italian classic with a rich sauce"
-          rating="4.8"
+        <SpecialRecipeCard
+          img="/src/assets/recipe6.jpg"
+          title="Grilled steak"
+          description="Juicy steak with a nice crust that is easy to cook"
+          rating="4.7"
         />
       </div>
     </>
