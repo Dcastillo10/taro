@@ -1,56 +1,43 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import Home from "../components/Home";
-import Footer from "../components/Footer";
+import { Carousel } from "react-bootstrap";
 import RecipeCard from "../components/RecipeCard";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const LandingPage = () => {
   return (
     <>
       <Home />
       <div className="recipe-cards">
-        <Carousel
-          showThumbs={false}
-          infiniteLoop={true}
-          showStatus={false}
-          showArrows={true}
-          autoPlay={false}
-          interval={3000}
-          centerMode={true}
-          centerSlidePercentage={25}
-        >
-          <RecipeCard
-            img="/src/assets/recipe1.jpg"
-            title="Cheesecake"
-            description="Creamy, rich cheesecake crowned with blueberry"
-            rating="4.8"
-          />
-          <RecipeCard
-            img="/src/assets/recipe2.jpg"
-            title="Chocolate muffins"
-            description="Loaded with chocolate chips in every single bite"
-            rating="4.9"
-          />
-          <RecipeCard
-            img="/src/assets/recipe8.jpg"
-            title="Spaghetti bolognese"
-            description="A true Italian classic with a rich sauce"
-            rating="4.8"
-          />
-          <RecipeCard
-            img="/src/assets/recipe6.jpg"
-            title="Grilled steak"
-            description="Juicy steak with a nice crust that is easy to cook"
-            rating="4.7"
-          />
-          <RecipeCard
-            img="/src/assets/recipe7.jpg"
-            title="Chicken breast"
-            description="Tender chicken breast in a delicious marinade"
-            rating="4.6"
-          />
+        <Carousel>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center align-items-center text-white">
+              <RecipeCard
+                img="/src/assets/recipe1.jpg"
+                title="Cheesecake"
+                description="Creamy, rich cheesecake crowned with blueberry"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center align-items-center text-white">
+              <RecipeCard
+                img="/src/assets/recipe1.jpg"
+                title="Cheesecake"
+                description="Creamy, rich cheesecake crowned with blueberry"
+              />
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="d-flex justify-content-center align-items-center text-white">
+              <RecipeCard
+                img="/src/assets/recipe1.jpg"
+                title="Cheesecake"
+                description="Creamy, rich cheesecake crowned with blueberry"
+              />
+            </div>
+          </Carousel.Item>
         </Carousel>
       </div>
     </>
